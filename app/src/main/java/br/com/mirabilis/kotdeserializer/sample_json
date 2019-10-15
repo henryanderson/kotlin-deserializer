@@ -1,0 +1,22 @@
+sumber tutorial:
+https://www.veskoiliev.com/how-to-handle-dynamic-json-response-with-retrofit/
+
+bersifat pilihan, dengan deserializer bisa menangkap semua
+komen salah satu
+
+{
+    "url": "http://updated-website.com?product=123&size=big",
+    "httpMethod": "GET"
+}
+
+
+{
+    "url": "http://website.com",
+    "httpMethod": "POST",
+    "parameters": {
+        "userId": "abc",
+        "sessionId": "def",
+        "randomParam1": "ghi",
+        "randomParam2": "jkl"
+    }
+}
